@@ -1,0 +1,70 @@
+
+.btn-edit{
+   background-color:slateblue;
+    color: white;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.btn-delete{
+   background-color:red;
+    color: #fff;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.createForm{
+    /* background-color: rebeccapurple; */
+    width: 50%;
+    margin:  0 auto;
+}
+.createForm div{
+    width: 100%;
+}
+.createForm div input textarea{
+    width: 90%;
+    margin:  0 auto;
+}
+#createBtnLinks{
+  
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.create-btn{
+    flex: 1;
+    background-color: teal;
+    margin-right: 10px;
+    margin-left: -20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+#createBtn{
+    background-color: teal;
+    border: none;
+}
+.cancel-btn{
+    flex: 1;
+    border: 2px solid teal;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+#cancelBtn{
+    background-color: white;
+    color: teal;
+}
+.successMessage{
+    margin-left: 0px;
+}
+
+@media  (max-width:450px){
+     
+    
+    
+    #table{
+        
+      }
+}
